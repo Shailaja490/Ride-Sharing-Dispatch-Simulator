@@ -16,3 +16,11 @@ A queue and priority queue-based ride-sharing dispatch system to assign drivers 
 - Queue: For waiting riders (collections.deque)
 - Priority Queue: For available drivers (heapq, sorted by distance and rating)
 - List/Dict: For ride assignment history
+
+- how to run
+- #clone respository
+- git clone <your-github-repo-link>
+cd ride_sharing_dispatch/src
+
+#Run the program
+python ride_sharing.py
