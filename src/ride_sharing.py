@@ -3,18 +3,18 @@ import heapq
 import datetime
 
 class Driver:
-    def _init_(self, driver_id, location, rating):
+    def __init__(self, driver_id, location, rating):
         self.driver_id = driver_id
         self.location = location  # Tuple (x, y)
         self.rating = rating      # Float
 
 class Rider:
-    def _init_(self, rider_id, location):
+    def __init__(self, rider_id, location):
         self.rider_id = rider_id
         self.location = location  # Tuple (x, y)
 
 class RideSharingDispatch:
-    def _init_(self):
+    def __init__(self):
         self.waiting_riders = deque()
         self.available_drivers = []
         self.ride_history = []
